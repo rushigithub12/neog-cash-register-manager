@@ -45,6 +45,9 @@ body {
     margin: 0.5rem auto;
     font-size: 1rem;
   }
+  .cash {
+    display: none;
+  }
   button {
     display: block;
     margin: 1rem auto;
@@ -64,6 +67,7 @@ body {
     font-size: 1.2rem;
   }
   .outputBox {
+    display: none;
     margin: 5rem auto;
     width: 40rem;
   }
@@ -81,7 +85,7 @@ body {
   }
   footer {
     text-align: center;
-    margin-top: 1rem;
+    margin-top: 2rem;
   }
   
   @media screen and (max-width: 800px) {
